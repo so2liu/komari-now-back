@@ -1,0 +1,1107 @@
+{
+  "taumi": {
+    "deliverCondition": {
+      "explaination": "Lieferung gilt nur für Addresse innerhalb 5 km entfernt von uns. Ab 35 Euro konstenlos.",
+      "minTotal": 35,
+      "freeDistance": 5000
+    },
+    "discountCondition": {
+      "explaination": "Angebote gelten nur ab 12:00 bis 16:00, Mo. bis Fr., außerdem Ferientage. Jetzt ist keine günstige Zeit.",
+      "startDay": 1,
+      "endDay": 5,
+      "endHour": 16,
+      "startHour": 8
+    },
+    "locations": {
+      "Lahr/Schwarzwald": "Kirchstraße 7, 77933",
+      "Karlsruhe": "Lorenzstraße 29, 76135",
+      "Bühl": "Johannespl. 3-5, 77815",
+      "Kleve": "Opschlag 6, 47533"
+    },
+    "nowMenu": {
+      "food": {
+        "Mittagstisch": {},
+        "Sushiset": {
+          "ROBU INVASION": {
+            "sub": [{ "subname": null, "price": 47, "id": "ROBU INVASION" }],
+            "EN": null,
+            "imgSrc": "sm6.jpg",
+            "DE": "8 pcs taumi special roll, 8 pcs alaska inside out roll, 8pcs sake maki, 8pcs kappa maki, 8 pcs tuna tempura Seetang salat, 6 pcs nigiri"
+          },
+          "Taumi Freestyle": {
+            "DE": "Nach Ihren besonderen Wünschen und Kreativität unseres Sushimeister / According to your special wishes and the creativeness of our sushi masters",
+            "sub": [{ "subname": "Freestyle", "price": 60, "id": "freestyle" }],
+            "imgSrc": "64B79D2A-233E-44BE-A776-C36F732287D8.jpeg"
+          },
+          "SAKE TSUNAMI": {
+            "imgSrc": "IMG-20200225-WA0020.jpg",
+            "DE": "8 pcs salmon maki, 4 pcs salmon nigiri, 2 pcs salmon sashimi",
+            "sub": [{ "subname": null, "price": 14.9, "id": "SAKE TSUNAMI" }],
+            "EN": null
+          },
+          "KAMASUTRA": {
+            "imgSrc": "IMG-20200225-WA0007.jpg",
+            "DE": "8 psc taumi special roll, 8 pcs salmon crunchy roll, 8 pcs kappa maki, 4 pcs nigiri, Seetang Salat",
+            "sub": [{ "id": "KAMASUTRA", "subname": null, "price": 36 }],
+            "EN": ""
+          },
+          "BLACK FOREST (Vegi) ": {
+            "DE": "8 pcs crunchy Vegi, 8pcs Vegi Inside-out, 8 pcs Maki Spargel, 2pcs Avocado Nigiri, Seetang Salat",
+            "sub": [
+              { "id": "BLACK FOREST (Vegi) ", "subname": null, "price": 32 }
+            ],
+            "EN": null,
+            "imgSrc": null
+          },
+          "MAKI MIX": {
+            "sub": [
+              { "id": "MAKI MIX", "subname": "maki-mix.jpg", "price": 10.5 }
+            ],
+            "EN": null,
+            "imgSrc": "maki-mix.jpg",
+            "DE": "8 pcs salmon maki, 8 pcs tuna maki, 8 pcs avocado maki"
+          },
+          "BLAZING LOVE": {
+            "DE": "8 pcs crispy tiger, 4 pcs nigiri",
+            "sub": [{ "id": "BLAZING LOVE", "subname": null, "price": 16.5 }],
+            "EN": null,
+            "imgSrc": "IMG-20200225-WA0021.jpg"
+          },
+          "CRISPY ROCKET": {
+            "DE": "8 pcs salmon crunchy roll, 4 pcs nigiri",
+            "sub": [{ "id": "CRISPY ROCKET", "subname": null, "price": 17.9 }],
+            "EN": null,
+            "imgSrc": "sm3.png"
+          }
+        },
+        "Hauptspeise": {
+          "CURRY": {
+            "DE": "TAUMI homemade Curry-Soße mit Hokaido Kurbis, Paprika, Zucchini, Karroten, serviert mit SprossenWildkräuter Salat und Salsa Roja, gerösteten Erdnüssen und Sesamreis. ",
+            "sub": [
+              { "subname": "Hähnchen", "price": 11.9, "id": "15H" },
+              {
+                "price": 13,
+                "id": "15R",
+                "subname": "Gegrilltes Rinderfleisch"
+              },
+              { "price": 14, "id": "15G", "subname": "Garnelen" },
+              { "price": 15.5, "id": "15E", "subname": "Ente" }
+            ],
+            "EN": "Taumi homemade Curry-Sauce with pumpkin, paprika, zuchhini und carrots served with sprout-herb salad, salsa roja, roasted peanut, sesame rice.",
+            "imgSrc": "h-curry-garnelen.jpeg"
+          },
+          "TAUMI ROYAL": {
+            "imgSrc": null,
+            "DE": "Gegrillte Großgarnelen oder Hähnchen gebraten in der TAUMI homemade Balsamico Soße mit Zuckererbsen, Zucchini und Paprika, serviert mit Sprossen-Wildkräuter Salat mit Salsa Roja, gerösteten Erdnüssen und Sesamreis. ",
+            "sub": [
+              { "subname": "Hähnchen", "price": 11.9, "id": "17H" },
+              { "price": 14, "id": "17G", "subname": "Großen Garnelen" }
+            ],
+            "EN": "Tiger prawns deep in Taumi homemade Balsamico-Sauce with sugar peas, courgette und paprika, served with sprout-herb salad, salsa-roja, roasted peanuts and sesame rice. "
+          },
+          "SWEET SALMON": {
+            "imgSrc": "h-sweet-salmon.jpeg",
+            "DE": "Gegrilltes Lachsfilet mit grünem Spargel (oder Gemüse der Saison) gebraten in Soja Balsamico Dressing, serviert mit frischem Salat, Sesamreis, Guacamole und Salsa Roja",
+            "sub": [{ "subname": null, "price": 16, "id": "20" }],
+            "EN": "Grilled salmon filet with green asparagus (or seasonal vegatables) in soja balsamico dressing, served with fresh salad, sesame rice, guacamole and salsa roja"
+          },
+          "BEST OCEAN": {
+            "sub": [{ "price": 17, "id": "18", "subname": null }],
+            "EN": "Raw salmon, tuna, scallops, cooked shrimp, ebi tempura served with sushi rice, wildflower salad, guacamole, salsa roja, ginger, wasabi, sesame dressing, unagi sauce and sesame.",
+            "imgSrc": "h-best-ocean.jpeg",
+            "DE": "Frischer roher Lachs, Thunfisch, Kammmuscheln,gekochte Garnelen, Ebi Tempura auf Sushireis, verfeinert mit einem Wildblüten Rucola Salat,Guacamole, Salsa Roja, Ingwer, Wasabi, Sesam Dressing, Unagi Soße und Sesam."
+          },
+          "DRY-AGED PREMIUM STEAK": {
+            "DE": "500g Premium T-bone Dry-aged Steak medium gegrillt, serviert mit Shiitake gebraten in Miso Soße, Wildkräuter Salat, Süßkartoffelpommes, hausgemachtem Salsa Roja und Guacamole.",
+            "sub": [{ "subname": null, "price": 32.5, "id": "23" }],
+            "EN": "500g premium T-bone Dryaged steak medium grilled, served with fried shiitake in homemade miso sauce, salsa roja, guacamole, sprout-herb salad and sweet fries",
+            "imgSrc": "h-dry-aged-steak.jpeg"
+          },
+          "TOFU CURRY": {
+            "imgSrc": "h-curry-tofu.jpeg",
+            "DE": "Cremiges Kokos-Curry mit Tofu und Hokaido Kurbis, verfeinert mit Wildkräuter Salat und Salsa Roja auf Sesamreis und gerösteten Erdnüssen.",
+            "sub": [{ "id": "25", "subname": null, "price": 10 }],
+            "EN": "Creamy coconut curry with tofu, Hokaido pumpkin, served with sprout-herb salad, salsa roja, sesam rice and roasted peanut"
+          },
+          "MANGO ENTE": {
+            "imgSrc": "h-mango-ente.jpeg",
+            "DE": "Gegrillte Entenbrust mit Mango Créme verfeinert mit Kokosmilch, serviert mit Rucola Salat, Reis, Salsa Roja und gerösteten Cashew Kernen",
+            "sub": [{ "id": "16", "subname": null, "price": 15.5 }],
+            "EN": "Grilled duck breast with mango creme with coconut milk, served with rucola salad, rice and roasted cashew nuts"
+          },
+          "KUH AUF DER WEIDE": {
+            "sub": [{ "subname": null, "price": 19.5, "id": "21" }],
+            "EN": "220g brazilian beef filet medium grilled, served with fried Babycorn, Karotte, Shanggai Pak Choi in miso sauce, homemade salsa roja, guacamole, sprout-herb salad and sweet fries",
+            "imgSrc": "h-kuh-auf-der-weide.jpeg",
+            "DE": "220g brasilianisches Rinderfilet medium gegrillt, serviert mit gebratenem Babymais, Karotten, Shangahi Pak Choi, Shitake in Miso Soße, Wildkräuter Salat, Süßkartoffelpommes, hausgemachtem Salsa Roja und Guacamole."
+          },
+          "HAPPY CHILD2": {
+            "imgSrc": "h-happy-child-2.jpeg",
+            "DE": "Hausgemachte gebratene Hühnerspieße serviert mit Süßkartoffel Pommes und Japanischer Mayonnaise",
+            "sub": [{ "id": "Happy2", "subname": null, "price": 8.5 }],
+            "EN": "Homemade fried chicken skewers with sweet potatoes fries and Japanese mayonnaise"
+          },
+          "SURF AND TURF": {
+            "sub": [{ "id": "22", "subname": null, "price": 19.5 }],
+            "EN": "150g medium grilled Brazilian beef steak and grilled tiger prawns, served with green asparagus, sugar pea and shiitake cooked in Taumi homemade miso sauce, backed sweet potato, sprout-herb salad, salsa roja and sesame rice",
+            "imgSrc": "h-suf-tuf.jpeg",
+            "DE": "150g medium gegrilltes brasilianisches Rinderfilet und gegrillte Großgarnelen serviert mit gebratenen grünem Spargel, Zuckererbsen und Shiitake in Miso-Soße, verfeinert mit Wildkräuter Salat, gedämpften Süßkartoffeln, hausgemachtem Salsa Roja, Guacamole und Sesamreis"
+          },
+          "HAPPY CHILD 1": {
+            "DE": "Tempura Garnelen ( 2 Stk. ) serviert mit Süßkartoffel Pommes, süß-sauer Soße und Japanischer Mayonnaise",
+            "sub": [{ "price": 8.5, "id": "Happy1", "subname": null }],
+            "EN": "Grilled shrimps served with sweet potatoes fries, Japanese mayonnaise und sweet sour sauce",
+            "imgSrc": "h-happy-child-1.jpeg"
+          },
+          "GREEN GARDEN": {
+            "DE": "Bestes Gemüse asiatischer Herkunft, gebraten und verfeinert mit Roja Balsamico Soße, garniert mit Rucola Salat abgeschmeckt mit Salsa Roja, serviert mit Sesamreis",
+            "sub": [{ "price": 10.5, "id": "24", "subname": null }],
+            "EN": "The best combination of asian vegetables roasted with Roja Balsamico Sauce, garnished with Rucola Salat, served with Salsa Roja and sesame rice",
+            "imgSrc": "h-green-garden.jpeg"
+          },
+          "MANGURO POWER": {
+            "DE": "Thunfischfilet in japanischem Gewürz kurz gegrillt, serviert mit gebraten Spargel, Wildblüten Salat, Guacamole, Salsa Roja und Sesamreis",
+            "sub": [{ "id": "19", "subname": null, "price": 18 }],
+            "EN": "Japanese spice seared tuna filet raw grilled, served with roasted asparagus, wildflower bloom salad, sesam rice, guacamole and salsa roja",
+            "imgSrc": "h-maguro-powder.jpeg"
+          },
+          "PHO": {
+            "sub": [
+              { "id": "12a-H", "subname": "Tofu", "price": 9 },
+              { "price": 9.5, "id": "12b-H", "subname": "Hähnchenfleisch" },
+              { "subname": "Rindfleisch", "price": 10.5, "id": "12c-H" }
+            ],
+            "EN": "A traditional Vietnamese soup, severed in a large bowl consisting of a strong, clear broth, thin rice noodles and thinly sliced beef, tender chicken or tofu served with spring onions, coriander, soy sprouts and chili.",
+            "imgSrc": "v-pho-bo.jpeg",
+            "DE": "Eine traditionelle Suppe der vietnamesischen Küche. Sie wird in einer Schüssel gereicht und enthält neben einer kräftigen klaren Brühe, Reisbandnudeln und wird traditionellerweise mit feinen Scheiben Rindfleisch, zartem Hähnchenfleisch oder würzigem Tofu, serviert mit Lauchringe, Koriander, Sojasprossen und Chili."
+          },
+          "UDON IN SCHWARZWALD": {
+            "imgSrc": "h-udon.jpeg",
+            "DE": "Japanische Udon Nudeln gebraten mit Tofu, Paprika, Zucchini und Karroten in hausgemachter Roja-Balsamico Soße, aromatisiert mit Salsa Roja, Zwiebeln, Wildblütensalat und Sesam.",
+            "sub": [{ "subname": null, "price": 11, "id": "26" }],
+            "EN": "Japanese Udon noodles fried with tofu, paprika, zuchhini und carrots in homemade Roja-Balsamico Sauce, flavored with salsa roja, fresh sproutflower salad, onions and sesame"
+          }
+        },
+        "Sushi": {
+          "MAKI (8 stk)": {
+            "sub": [
+              { "id": "M11", "subname": "Avocado - Avocado", "price": 4.2 },
+              { "subname": "Sake - Lachs", "price": 4.5, "id": "M14" },
+              { "price": 3.9, "id": "M12", "subname": "Kappa - Gurke" },
+              { "subname": "Spargel - Spargel", "price": 4.2, "id": "M13" },
+              { "subname": "Tekka - Thunfisch", "price": 4.8, "id": "M15" },
+              {
+                "id": "M17",
+                "subname": "Anago - Gerillter Salzwasseraal/Salty sea eel grilled",
+                "price": 5.9
+              },
+              {
+                "price": 4.8,
+                "id": "M16",
+                "subname": "Ebi - Gekochte Garnelen"
+              },
+              {
+                "id": "M18",
+                "subname": "Tempura Garnelen - Frittierte Garnelen / Fried prawns",
+                "price": 5.9
+              },
+              {
+                "id": "M19",
+                "subname": "Salmon Skin - Frittierte Lachshaut / Fried salmon skin",
+                "price": 4.3
+              }
+            ],
+            "EN": null,
+            "imgSrc": "maki.jpg",
+            "DE": null
+          },
+          "Taumi Special homemade roll (8 stk)": {
+            "sub": [
+              {
+                "id": "H41",
+                "subname": "CRISPY TIGER - garnelen im tempuramantel, mango, avocado, bedeckt mit flambierten lachs / philadelphia-frischkäse nach wunsch",
+                "price": 12.9
+              },
+              {
+                "price": 12.9,
+                "id": "H42",
+                "subname": "SIZZLING TEMPTATION - avocado tempura, gurke im lachsmantel / philadelphia-frischkäse nach wunsch"
+              },
+              {
+                "subname": "MAMA EBI - gegrillte lachshaut, mango, avocado umwickelt mit großgarnelen und reispapier/philadelphia(nach wunsch)",
+                "price": 12.9,
+                "id": "H43"
+              },
+              {
+                "id": "H44",
+                "subname": "BLAZING TUNA - surimi, mango ummantelt mit feuerthunfisch / philadelphia-frischkäse nach wunsch",
+                "price": 13.9
+              },
+              {
+                "id": "H45",
+                "subname": "FUTO MAKI - 5stk gefüllt mit lachs, thunfisch, mango, avocado, gurken",
+                "price": 9.9
+              },
+              {
+                "subname": "SPIDER ROLL - 6stk inside out, softshell crab, avocado, frühlingszwiebeln, gurke, chili-mayo soße",
+                "price": 14.5,
+                "id": "H45"
+              }
+            ],
+            "EN": null,
+            "imgSrc": "IMG-20200225-WA0013.jpg",
+            "DE": null
+          },
+          "NIGIRI (2 stk)": {
+            "sub": [
+              { "id": "N1", "subname": "Avocado - Avocado", "price": 4.2 },
+              { "id": "N2", "subname": "Sake - Lachs", "price": 4.6 },
+              {
+                "id": "N3",
+                "subname": "Maguro - Thunfisch / Tuna",
+                "price": 4.9
+              },
+              {
+                "id": "N4",
+                "subname": "Ebi - Eingelegte Garnelen / Pickled prauns",
+                "price": 4.6
+              },
+              { "price": 4, "id": "N5", "subname": "Kani - Surimi" },
+              {
+                "id": "N6",
+                "subname": "Anago - Gegrillter Salzwasseraal / Grilled salty sea eel",
+                "price": 5.9
+              },
+              {
+                "id": "N7",
+                "subname": "Ikura - Lachskaviar / Salmon row",
+                "price": 6.5
+              },
+              {
+                "subname": "Aburi Gai - Flambierte Jakobsmuscheln / Scallops flambeed",
+                "price": 6.5,
+                "id": "N8"
+              },
+              {
+                "subname": "Gambos - Rote Garnelen / red prawns",
+                "price": 6.5,
+                "id": "N9"
+              },
+              {
+                "id": "N10",
+                "subname": "Rinderfilet - Rinderfilet flambiert / Beef filet flambeed",
+                "price": 5.9
+              },
+              {
+                "price": 5.5,
+                "id": "N11",
+                "subname": "Lachs Toro - Toro Lachs / Toro salmon"
+              }
+            ],
+            "EN": null,
+            "imgSrc": "nigiri.jpeg",
+            "DE": null
+          },
+          "INSIDE OUT ROLLS (8 stk)": {
+            "DE": null,
+            "sub": [
+              {
+                "subname": "Alaska - lachs, avocado, tobiko (kaviar)",
+                "price": 9.2,
+                "id": "U21"
+              },
+              {
+                "price": 10.5,
+                "id": "U22",
+                "subname": "Maguro - thunfisch, avocado, tobiko (kaviar)"
+              },
+              {
+                "id": "U23",
+                "subname": "Ebi Tempura - gebackene garnelen, avocado, sesam",
+                "price": 10.5
+              },
+              {
+                "subname": "California - surimi, avocado, tobiko (kaviar)",
+                "price": 8.5,
+                "id": "U24"
+              },
+              {
+                "price": 10.5,
+                "id": "U25",
+                "subname": "Anago - salzwasseraal, gurke, sesam"
+              },
+              {
+                "id": "U26",
+                "subname": "Hotategal - jakobsmuscheln, avocado, tobiko (kaviar)",
+                "price": 10.5
+              },
+              {
+                "id": "U27",
+                "subname": "Salmonskin - gegrillte lachshaut, gurke, sesam",
+                "price": 9.2
+              },
+              {
+                "subname": "Vegie - tempura-avocado und gurke, ummantelt mit mango und reispapier",
+                "price": 8.5,
+                "id": "U28"
+              }
+            ],
+            "EN": null,
+            "imgSrc": "7FF55BA3-3CC8-49AA-BB0D-76F5D365BFC4.jpeg"
+          },
+          "Sashimi": {
+            "sub": [
+              {
+                "id": "S31",
+                "subname": "SALMON - 6 stk lachs auf seetangsalat, avocado, daikon salat",
+                "price": 11.5
+              },
+              {
+                "subname": "TUNA - 6 stk thunfisch auf seetangsalat, avocado, daikon salat",
+                "price": 13.9,
+                "id": "S32"
+              },
+              {
+                "id": "S33",
+                "subname": "ABURI SASHIMI - 3 stk flambierter lachs und 3 stk thunfisch, auf seetangsalat, avocado",
+                "price": 15.2
+              },
+              {
+                "id": "S34",
+                "subname": "LACHS TORO - 6 Scheiben Toro Lachs auf Seetangsalat und Avocado / 6 slices of toro salmon on seaweed salad and avocado",
+                "price": 10.5
+              }
+            ],
+            "EN": null,
+            "imgSrc": "sashimi.jpg",
+            "DE": null
+          },
+          "Tempura (8 stk)": {
+            "sub": [
+              {
+                "id": "T51",
+                "subname": "Crunchy - avocado, gurke, spargel m/o philadelphia-frischkäse nach wunsch",
+                "price": 12.9
+              },
+              {
+                "id": "T52",
+                "subname": "Tunacado - thunfisch, avocado m/o philadelphia-frischkäse nach wunsch",
+                "price": 14.5
+              },
+              {
+                "price": 13.5,
+                "id": "T53",
+                "subname": "Aburi Salmon - lachs, avocado m/o philadelphia-frischkäse nach wunsch"
+              },
+              {
+                "subname": "Hotagai Tempura - jakobsmuscheln, avocado m/o philadelphia-frischkäse nach wunsch",
+                "price": 14.5,
+                "id": "T54"
+              },
+              {
+                "price": 13.5,
+                "id": "T55",
+                "subname": "Ebi crunchy - garnele, gurken m/o philadelphia-frischkäse nach wunsch"
+              }
+            ],
+            "EN": "crunchy rolls are served with guacamoleand homemade dressing",
+            "imgSrc": "3FE1FE86-D4B2-4141-8CF9-3D1A98B29C68.jpeg",
+            "DE": "die rundum frittierte sushi rolle wird mit guacamole und homemade dressing serviert"
+          }
+        },
+        "Vorspeise": {
+          "SEAWEED SALAT": {
+            "imgSrc": "seaweed-salad.jpg",
+            "DE": "Seetang Salat mit Gurke, serviert mit Sesamdressing und Sesam",
+            "sub": [{ "subname": null, "price": 5, "id": "9" }],
+            "EN": "Seaweed salad with cucumber, served with sesame dressing and sesame"
+          },
+          "PRAWNS IN SILK": {
+            "sub": [{ "subname": null, "price": 5, "id": "7" }],
+            "EN": "Dumplings made from rice flour filled with minced shrimp and vegetables",
+            "imgSrc": "v-prawn-in-silk.jpeg",
+            "DE": "Teigtaschen aus Reismehl gefüllt mit gehackten Garnelen und Gemüse"
+          },
+          "CREW LOVE TAPAS": {
+            "sub": [
+              { "id": "10a", "subname": "2 Personen", "price": 13.5 },
+              { "price": 18, "id": "10b", "subname": "3 Personen" }
+            ],
+            "EN": "Different little appetizers from our starter menu: baby soy beans with sea salt, dumplings, springrolls, summerrolls",
+            "imgSrc": "v-tapas-3.jpeg",
+            "DE": "Verschiedene kleine Vorspeisen aus unseren Vorspeisen Menü: Edamame, Dumplings, Springrolls, Summerrolls"
+          },
+          "TARTARE": {
+            "sub": [{ "id": "5", "subname": null, "price": 7.5 }],
+            "EN": "Tuna tartare with avocado, spring onions with spicy sauce and seaweed salad, served with Vietnamese Banh Da",
+            "imgSrc": "v-tatar2.jpeg",
+            "DE": "Thunfisch Tartare mit Avocado, Lauchzwiebeln mit scharfer Sauce und Seetangsalat serviert mit vietnamesischem Banh Da"
+          },
+          "Springrolls": {
+            "EN": "Vietnamese crispy springrolls filled with prawns and vegetables, served with a lime-chili dip",
+            "imgSrc": "v-fruehling-rolle.jpeg",
+            "DE": "Vietnamesische knusprige Frühlingsrollen gefüllt mit Garnelen und Gemüse, serviert mit Süss-Sauer-Dip",
+            "sub": [{ "price": 6, "id": "3", "subname": null }]
+          },
+          "FUSION SALAT": {
+            "DE": "Wildkräutersalat mit Rucola, Cherrytomaten, frische Mango, Gurken, serviert mit Salsa-Roja, gerösteten Erdnüssem und Shiso Kresse. ",
+            "sub": [
+              {
+                "subname": "Würziger gegrillter Hühnerbrust",
+                "price": 10.5,
+                "id": "13H"
+              },
+              { "subname": "Gegrillten Lachs", "price": 13, "id": "13L" },
+              {
+                "id": "13M",
+                "subname": "Gegrillten Kammmuscheln",
+                "price": 15.5
+              }
+            ],
+            "EN": "Mixed salat with Rucola, cherry tomatoes, fresh mango, cucumber, shiso cresse served with roasted peanut, Salsa-Roja and Shiso cresse. ",
+            "imgSrc": "h-salat-jakob.jpeg"
+          },
+          "Almost nude": {
+            "sub": [
+              { "price": 4.5, "id": "2T", "subname": "Tofu / Tofu" },
+              {
+                "subname": "Hühnerfleisch / Chicken",
+                "price": 5.5,
+                "id": "2H"
+              },
+              {
+                "subname": "Tempura Garnelen / Tempura prawns",
+                "price": 6,
+                "id": "2G"
+              }
+            ],
+            "EN": "Vietnamese summer rolls filled with salad, cucumber, rice noodles, roasted peanuts, served with a light homemade limevinaigrette or soya sauce",
+            "imgSrc": "v-sommer-rolle.jpeg",
+            "DE": "Vietnamesiche Sommerrollen gefüllt mit Salat, Gurken, Reisnudeln, gerösteten Erdnüssen, serviert mit leichter hausgemachter Limetten-Vinaigrette oder Sojasoße"
+          },
+          "SMOKY SATE": {
+            "DE": "Gebratene Hühnerspieße mit Erdnuss Soße",
+            "sub": [{ "id": "6", "subname": null, "price": 6 }],
+            "EN": "Fried chicken skewers with peanut sauce",
+            "imgSrc": "v-sate.jpeg"
+          },
+          "EDAMAME": {
+            "DE": "Baby grüne Sojabohnen serviert mit Meersalz",
+            "sub": [{ "price": 5, "id": "4", "subname": null }],
+            "EN": "Baby green soy beans served with sea salt",
+            "imgSrc": "v-edamame.jpeg"
+          },
+          "SüßKARTOFFEL POMMES": {
+            "DE": "Süßkartoffel Pommes serviert mit Japanischer Mayonnaise",
+            "sub": [{ "id": "11", "subname": null, "price": 5 }],
+            "EN": "Sweet potato fries served with Japanese mayonnaise",
+            "imgSrc": null
+          },
+          "Catch the fish": {
+            "imgSrc": "v-catch-the-fish.jpeg",
+            "DE": "Suppe mit Lachs, Großgarnelen, Grüne Muscheln, Cherry Tomaten, Tom-yum Paste, Champignons Lauchzwiebeln und Dill",
+            "sub": [{ "id": "1", "subname": null, "price": 7.5 }],
+            "EN": "Soup with salmon, tiger prawns, green mussels, cherry tomatoes, Tom-yum paste, mushrooms, spring onions and dill"
+          },
+          "PHO": {
+            "imgSrc": "v-pho-ga.jpeg",
+            "DE": "Eine traditionelle Suppe der vietnamesischen Küche. Sie wird in einer Schüssel gereicht und enthält neben einer kräftigen klaren Brühe, Reisbandnudeln und wird traditionellerweise mit feinen Scheiben Rindfleisch, zartem Hähnchenfleisch oder würzigem Tofu, serviert mit Lauchringe, Koriander, Sojasprossen und Chili.",
+            "sub": [
+              { "subname": "Tofu", "price": 5, "id": "12a-V" },
+              { "price": 5.5, "id": "12b-V", "subname": "Hähnchenfleisch" },
+              { "subname": "Rindfleisch", "price": 6, "id": "12c-V" }
+            ],
+            "EN": "A traditional Vietnamese soup, severed in a large bowl consisting of a strong, clear broth, thin rice noodles and thinly sliced beef, tender chicken or tofu served with spring onions, coriander, soy sprouts and chili."
+          },
+          "BUN (südvietnamesische Stil)": {
+            "EN": "Warm rice-nudeln served with sprout-herb salad, coriander and chili – ginger – lime – vinaigrette served with roasted peanut and sesame. ",
+            "imgSrc": "h-bun-all.jpeg",
+            "DE": "Reisnudeln serviert mit Wildkräutersalat, Koriander und Chili-Ingwer-LimettenVinaigrette verfeinert mit gerösteten Erdnüssen.",
+            "sub": [
+              { "id": "14H", "subname": "Gegrillter Hühnerbrust", "price": 11 },
+              {
+                "price": 11.5,
+                "id": "14F",
+                "subname": "Vietnamesischer Frühlingsrolllen"
+              },
+              {
+                "price": 12.5,
+                "id": "14R",
+                "subname": "Gegrilltes Rinderfleisch"
+              }
+            ]
+          },
+          "GOLDEN MANGO SALAT": {
+            "DE": "Gegrillte Garnelen, frische Mango, Gurke und Salat gemischt in Süß-Sauer Soße, serviert mit Cherrytomaten.",
+            "sub": [{ "id": "8", "subname": null, "price": 8.5 }],
+            "EN": "Grilled Shrimp, fresh mango, cucumber, Salat mixed in sweet-sour sauce, served with cherry tomato",
+            "imgSrc": "v-mango-salat.jpeg"
+          }
+        }
+      },
+      "drinks": {
+        "Tee": {
+          "Grüner Tee": {
+            "DE": "",
+            "sub": [{ "id": "Grüner Tee", "subname": null, "price": 3 }],
+            "imgSrc": null
+          },
+          "Jasmin Tee": {
+            "DE": "",
+            "sub": [{ "id": "Jasmin Tee", "subname": null, "price": 3 }],
+            "imgSrc": null
+          },
+          "Hausgemachter Ingwer Tee": {
+            "DE": "Mit frischem Ingwer, Orange & Honig",
+            "sub": [
+              {
+                "id": "Hausgemachter Ingwer Tee",
+                "subname": null,
+                "price": 3.8
+              }
+            ],
+            "imgSrc": null
+          },
+          "Hausgemacht Zirtronengras Tee": {
+            "DE": "Mit frischem Zirtronengras, Ingwer, Limette & Honig",
+            "sub": [
+              {
+                "id": "Hausgemacht Zirtronengras Tee",
+                "subname": null,
+                "price": 3.8
+              }
+            ],
+            "imgSrc": null
+          },
+          "Hausgemachter Minz Tee": {
+            "DE": "Mit frischem Minze, Limette & Honig",
+            "sub": [
+              { "id": "Hausgemachter Minz Tee", "subname": null, "price": 3.5 }
+            ],
+            "imgSrc": null
+          }
+        },
+        "Koffee": {
+          "Cafe Saigon": {
+            "DE": "Vietnamesischer Filterkaffee mit süßer Kondensmilch",
+            "sub": [{ "id": "Cafe Saigon", "subname": null, "price": 3.5 }],
+            "imgSrc": null
+          },
+          "Espresso": {
+            "DE": "",
+            "sub": [{ "id": "Espresso", "subname": null, "price": 1.8 }],
+            "imgSrc": null
+          },
+          "Cappuccino": {
+            "DE": "",
+            "sub": [{ "id": "Cappuccino", "subname": null, "price": 2.6 }],
+            "imgSrc": null
+          },
+          "Latte Macchiato": {
+            "DE": "",
+            "sub": [{ "id": "Latte Macchiato", "subname": null, "price": 3.2 }],
+            "imgSrc": null
+          },
+          "Grüntee Latte": {
+            "DE": "Latte Macchiato mit japanischem Grüntee Matcha Pulver",
+            "sub": [{ "id": "Grüntee Latte", "subname": null, "price": 3.8 }],
+            "imgSrc": null
+          }
+        },
+        "Hausgemachte Frische Getränke": {
+          "Mongo Shake": {
+            "DE": "Pürierte Mongos, Joghurt, Kokosmilch",
+            "sub": [{ "id": "Mongo Shake", "subname": null, "price": 5.5 }],
+            "imgSrc": null
+          },
+          "Very Berry": {
+            "DE": "Frische Erdbeer, Heidelbeer, Brommbeeren, Zucker, Cranberrysaft, Minze",
+            "sub": [{ "id": "Very Berry", "subname": null, "price": 5.9 }],
+            "imgSrc": null
+          },
+          "Ginger Lemonnade": {
+            "DE": "Ingwer, Limette, Minze, Ginger Beer (kein Alkohol)",
+            "sub": [
+              { "id": "Ginger Lemonnade", "subname": null, "price": 5.9 }
+            ],
+            "imgSrc": null
+          },
+          "Lemongras Lemonade": {
+            "DE": "Hausgemachter Zitronengrassyrup, Limette, Rohrzucker",
+            "sub": [
+              { "id": "Lemongras Lemonade", "subname": null, "price": 5.9 }
+            ],
+            "imgSrc": null
+          },
+          "Thai Basil Lemonade": {
+            "DE": "Thai-Basilikum, Limette, Cranberrysaft, Rohrzucker",
+            "sub": [
+              { "id": "Thai Basil Lemonade", "subname": null, "price": 5.9 }
+            ],
+            "imgSrc": null
+          }
+        },
+        "Kalte Getränke": {
+          "Cola/Cola light/Fanta/Sprite": {
+            "DE": "",
+            "sub": [
+              { "id": "Cola 0.2L", "subname": "0.2L", "price": 2.5 },
+              { "id": "Cola 0.4L", "subname": "0.4L", "price": 4 },
+              { "id": "Light 0.2L", "subname": "0.2L", "price": 2.5 },
+              { "id": "Light 0.4L", "subname": "0.4L", "price": 4 },
+              { "id": "Fanta 0.2L", "subname": "0.2L", "price": 2.5 },
+              { "id": "Fanta 0.4L", "subname": "0.4L", "price": 4 },
+              { "id": "Sprite 0.2L", "subname": "0.2L", "price": 2.5 },
+              { "id": "Sprite 0.4L", "subname": "0.4L", "price": 4 }
+            ],
+            "imgSrc": null
+          },
+          "Acqua Morelli Wasser": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "Sparkling 0.2L",
+                "subname": "Sparkling 0.2L",
+                "price": 2.5
+              },
+              {
+                "id": "Sparkling 0.75L",
+                "subname": "Sparkling 0.75L",
+                "price": 6.5
+              },
+              { "id": "Still 0.2L", "subname": "Still 0.2L", "price": 2.5 },
+              { "id": "Still 0.75L", "subname": "Still 0.75L", "price": 6.5 }
+            ],
+            "imgSrc": null
+          },
+          "Schweppes Drinks": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "Ginger Ale 0.2L",
+                "subname": "Ginger Ale 0.2L",
+                "price": 2.6
+              },
+              {
+                "id": "Tonic Water 0.2L",
+                "subname": "Tonic Water 0.2L",
+                "price": 2.6
+              },
+              {
+                "id": "Russian Wildberry 0.2L",
+                "subname": "Russian Wildberry 0.2L",
+                "price": 2.6
+              }
+            ],
+            "imgSrc": null
+          },
+          "Naturtrüb Saft": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "Apfelsaft 0.2L",
+                "subname": "Apfelsaft 0.2L",
+                "price": 2.6
+              },
+              {
+                "id": "Apfelsaft 0.5L",
+                "subname": "Apfelsaft 0.5L",
+                "price": 4.6
+              },
+              {
+                "id": "Orangensaft 0.2L",
+                "subname": "Orangensaft 0.2L",
+                "price": 2.6
+              },
+              {
+                "id": "Orangensaft 0.5L",
+                "subname": "Orangensaft 0.5L",
+                "price": 4.6
+              },
+              {
+                "id": "Cranberrysaft 0.2L",
+                "subname": "Cranberrysaft 0.2L",
+                "price": 2.6
+              },
+              {
+                "id": "Cranberrysaft 0.5L",
+                "subname": "Cranberrysaft 0.5L",
+                "price": 4.6
+              },
+              {
+                "id": "Maracujasaft 0.2L",
+                "subname": "Maracujasaft 0.2L",
+                "price": 2.6
+              },
+              {
+                "id": "Maracujasaft 0.5L",
+                "subname": "Maracujasaft 0.5L",
+                "price": 4.6
+              },
+              {
+                "id": "Aloe Vera Saft 0.25L",
+                "subname": "Aloe Vera Saft 0.25L",
+                "price": 2.9
+              },
+              {
+                "id": "Aloe Vera Saft 0.5L",
+                "subname": "Aloe Vera Saft 0.5L",
+                "price": 4.9
+              }
+            ],
+            "imgSrc": null
+          },
+          "Saftschorle": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "Apfelsaft 0.2L",
+                "subname": "Apfelsaft 0.2L",
+                "price": 2.5
+              },
+              {
+                "id": "Apfelsaft 0.5L",
+                "subname": "Apfelsaft 0.5L",
+                "price": 4.5
+              },
+              {
+                "id": "Orangensaft 0.2L",
+                "subname": "Orangensaft 0.2L",
+                "price": 2.5
+              },
+              {
+                "id": "Orangensaft 0.5L",
+                "subname": "Orangensaft 0.5L",
+                "price": 4.5
+              },
+              {
+                "id": "Cranberrysaft 0.2L",
+                "subname": "Cranberrysaft 0.2L",
+                "price": 2.5
+              },
+              {
+                "id": "Cranberrysaft 0.5L",
+                "subname": "Cranberrysaft 0.5L",
+                "price": 4.5
+              },
+              {
+                "id": "Maracujasaft 0.2L",
+                "subname": "Maracujasaft 0.2L",
+                "price": 2.5
+              },
+              {
+                "id": "Maracujasaft 0.5L",
+                "subname": "Maracujasaft 0.5L",
+                "price": 4.5
+              },
+              {
+                "id": "Aloe Vera Saft 0.25L",
+                "subname": "Aloe Vera Saft 0.25L",
+                "price": 2.5
+              },
+              {
+                "id": "Aloe Vera Saft 0.5L",
+                "subname": "Aloe Vera Saft 0.5L",
+                "price": 4.5
+              }
+            ],
+            "imgSrc": null
+          }
+        },
+        "Cocktails": {
+          "Greentea Mojito": {
+            "DE": "Vietnamesicher Reisschnapps, Limette, Minze, Ginger Ale, japanisches Matcha Pulver",
+            "sub": [{ "id": "Greentea Mojito", "subname": null, "price": 7.5 }],
+            "imgSrc": null
+          },
+          "Passionfruit Paloma": {
+            "DE": "Tequila, Maracujasaft, Limette, Grenadine",
+            "sub": [
+              { "id": "Passionfruit Paloma", "subname": null, "price": 7.9 }
+            ],
+            "imgSrc": null
+          },
+          "Moscow Mule": {
+            "DE": "Wodka, Ginger Beer, Gurke",
+            "sub": [{ "id": "Moscow Mule", "subname": null, "price": 7.5 }],
+            "imgSrc": null
+          },
+          "Long Island Ice Tea": {
+            "DE": "Wodka, Hendrick's Gin, Tequila, Triple Sec, Rum, Limette, Cola",
+            "sub": [
+              { "id": "Long Island Ice Tea", "subname": null, "price": 8.5 }
+            ],
+            "imgSrc": null
+          },
+          "Aperol Spritz": {
+            "DE": "Prosecco, Aperol, Orange, Minze, Soda",
+            "sub": [{ "id": "Aperol Spritz", "subname": null, "price": 6.2 }],
+            "imgSrc": null
+          },
+          "Hugo": {
+            "DE": "Prosecco, Edenflower, Soda, Minze",
+            "sub": [{ "id": "Hugo", "subname": null, "price": 6.5 }],
+            "imgSrc": null
+          },
+          "Lillet Wildberry": {
+            "DE": "Lillet, Wildberrysaft, Erdbeere, Himbeere, Heidelbeere",
+            "sub": [
+              { "id": "Lillet Wildberry", "subname": null, "price": 6.5 }
+            ],
+            "imgSrc": null
+          },
+          "Sex on the Beach": {
+            "DE": "Vodka, Cranberry Saft, Orangensaft, Pfirsich Liqueur",
+            "sub": [
+              { "id": "Sex on the Beach", "subname": null, "price": 6.5 }
+            ],
+            "imgSrc": null
+          },
+          "Caipirinha": {
+            "DE": "Cachaca, Limette, Rohrzucker",
+            "sub": [{ "id": "Caipirinha", "subname": null, "price": 6.2 }],
+            "imgSrc": null
+          }
+        },
+        "Bier": {
+          "Krombacher Pils vom Fass": {
+            "DE": "",
+            "sub": [
+              { "id": "0.3L", "subname": "0.3L", "price": 3 },
+              { "id": "0.5L", "subname": "0.5L", "price": 4.2 }
+            ],
+            "imgSrc": null
+          },
+          "Radler": {
+            "DE": "",
+            "sub": [
+              { "id": "0.3L", "subname": "0.3L", "price": 3 },
+              { "id": "0.5L", "subname": "0.5L", "price": 4.2 }
+            ],
+            "imgSrc": null
+          },
+          "Hefeweizen": {
+            "DE": "",
+            "sub": [
+              { "id": "0.5L", "subname": "0.5L", "price": 4.2 },
+              {
+                "id": "Alkoholfrei 0.5L",
+                "subname": "Alkoholfrei 0.5L",
+                "price": 4.2
+              }
+            ],
+            "imgSrc": null
+          },
+          "Tiger Beer": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "0.33L",
+                "subname": "0.33L",
+                "price": 3
+              }
+            ],
+            "imgSrc": null
+          }
+        },
+        "Asiatische Getränke": {
+          "Aloe Vera Saft": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "0.2L",
+                "subname": "0.2L",
+                "price": 2.9
+              },
+              {
+                "id": "0.5L",
+                "subname": "0.5L",
+                "price": 4.9
+              }
+            ],
+            "imgSrc": null
+          },
+          "Tiger Beer": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "0.33L",
+                "subname": "0.33L",
+                "price": 3
+              }
+            ],
+            "imgSrc": null
+          },
+          "Sake": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "kalt",
+                "subname": "kalt 0.25L",
+                "price": 5.9
+              },
+              {
+                "id": "warm",
+                "subname": "warm 0.25L",
+                "price": 5.9
+              }
+            ],
+            "imgSrc": null
+          }
+        },
+        "Offene Weine (0.2L)": {
+          "Weißwein": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "Riesling",
+                "subname": "Königschaffhausen Riesling",
+                "price": 4.5
+              },
+              {
+                "id": "Grauburgrunder",
+                "subname": "Königschaffhausen Grauburgrunder / Auggener Schäf",
+                "price": 4.5
+              },
+              {
+                "id": "Sauvignon Blanc",
+                "subname": "Königschaffhausen Sauvignon Blanc / Auggener Schäf",
+                "price": 4.5
+              },
+              {
+                "id": "Prosecco Scavi & Ray",
+                "subname": "Prosecco Scavi & Ray",
+                "price": 5.9
+              }
+            ],
+            "imgSrc": null
+          },
+          "Rotwein": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "Batuta Merlot",
+                "subname": "Batuta Merlot",
+                "price": 4.5
+              },
+              {
+                "id": "Königschaffhausen Spätburgunder",
+                "subname": "Königschaffhausen Spätburgunder",
+                "price": 4.5
+              }
+            ],
+            "imgSrc": null
+          },
+          "Rosewein": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "Vinea Tempranillo",
+                "subname": "Vinea Tempranillo",
+                "price": 5.9
+              }
+            ],
+            "imgSrc": null
+          },
+          "Weinschorle": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "Mit Rotwein",
+                "subname": "Mit Rotwein",
+                "price": 4.2
+              },
+              {
+                "id": "Mit Weißwein",
+                "subname": "Mit Weißwein",
+                "price": 4.2
+              },
+              {
+                "id": "Mit Rosewein",
+                "subname": "Mit Rosewein",
+                "price": 4.2
+              }
+            ],
+            "imgSrc": null
+          }
+        },
+        "Flaschenwein (0.75L)": {
+          "Weißwein": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "Riesling 0.75L",
+                "subname": "Königschaffhausen Riesling Kabinett - trocken",
+                "price": 18
+              },
+              {
+                "id": "Grauburgrunder 0.75L",
+                "subname": "Königschaffhausen Grauburgrunder / Auggener Schäf",
+                "price": 20
+              },
+              {
+                "id": "Sauvignon Blanc 0.75L",
+                "subname": "Königschaffhausen Sauvignon Blanc / Auggener Schäf",
+                "price": 22
+              },
+              {
+                "id": "Viadero Blanco de Albilo 2015",
+                "subname": "Viadero Blanco de Albilo 2015",
+                "price": 60
+              }
+            ],
+            "imgSrc": null
+          },
+          "Rotwein": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "Merlot 0.75L",
+                "subname": "Batuta Merlot",
+                "price": 18
+              },
+              {
+                "id": "Spätburgunder 0.75L",
+                "subname": "Königschaffhausen Spätburgunder",
+                "price": 20
+              },
+              {
+                "id": "Finca Museum 0.75L",
+                "subname": "Finca Museum Reserva 2010",
+                "price": 39
+              },
+              {
+                "id": "Valduero Gran Reserva 2004 0.75L",
+                "subname": "Valduero Gran Reserva 2004 - Ribera del Duero",
+                "price": 39
+              }
+            ],
+            "imgSrc": null
+          },
+          "Rosewein": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "Vinea Tempranillo 0.75",
+                "subname": "Vinea Tempranillo",
+                "price": 22
+              }
+            ],
+            "imgSrc": null
+          },
+          "Sekt": {
+            "DE": "",
+            "sub": [
+              {
+                "id": "Prosecco 0.75",
+                "subname": "Scavi & Ray Prosecco",
+                "price": 22
+              }
+            ],
+            "imgSrc": null
+          }
+        }
+      }
+    }
+  }
+}
